@@ -1,25 +1,10 @@
-menity.py
-
-""" Defines the Amenity class """
+#!/usr/bin/python3
+"""This module creates a Amenity class"""
 
 from models.base_model import BaseModel
 
 
 class Amenity(BaseModel):
-    """ Subclass of BaseModel class
+    """Class for managing amenity objects"""
 
-        Args:
-            name(str): name of the amenity
-
-    """
-    name = ''
-
-    def __init__(self, *args, **kwargs):
-        """ Initialises the Amenity class
-
-            Args:
-                args(tuple): Not used
-                kwargs(dictionary): Dictionary representation of instance
-
-        """
-        super().__init__(**kwargs)
+    name = ""
