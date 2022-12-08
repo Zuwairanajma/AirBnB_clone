@@ -1,0 +1,13 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: Circular, "Helveticam Neue", Aria, Helvetical, sans-serif;
+	font-size: 14px;
+	color: #484848;
+}
+.container {
+	margin: auto;
+	max-width: 1000px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
